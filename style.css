@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+  font-family: "jonfont";
+   src: url(GoogleSans-Regular.ttf);
+}
+
+body{
+	text-align: center;
+}
+
+.jon{
+	width: 30%;
+	margin-top: 10em;
+}
+
+.navbar {
+    overflow: hidden;
+    font-family: jonfont;
+	font-size: 100%;
+}
+
+
+.dropdown {
+	text-align: center;
+    overflow: hidden;
+}
+
+.dropbtn:hover{
+	color: #F3F3F3;
+	transition: .1s;
+}
+
+
+.dropdown .dropbtn {
+    font-size: 20px;    
+    border: none;
+	width: 50%;
+    outline: none;
+    color: #D1D1D1;
+    padding: 14px 16px;
+    background-color: #F3F3F3;
+    font-family: jonfont;
+    margin: 0;
+}
+
+h1{ font-family: jonfont;}
+
+
+.dropdown-content {
+    display: none;
+    width:75%;
+    z-index: 1;
+	text-align: center;
+}
+
+.dropdown-content a {
+    color: #303030;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+	margin-left: 33.5%;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
